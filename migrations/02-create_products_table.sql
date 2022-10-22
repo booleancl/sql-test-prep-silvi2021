@@ -1,6 +1,7 @@
 \c ecommerce
 
 DROP TABLE IF EXISTS products;
+
 CREATE TABLE products(
     id INTEGER NOT NULL,
     name VARCHAR(50),
